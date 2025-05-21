@@ -15,8 +15,10 @@ function App() {
   return (
     <>
       <div className="file-container">
-        <input type="file" id="file" name="uploadedFile" accept=".mp4,video/mp4" onChange={handleFile} ref={fileInputRef} />
-        <input type="submit" value="Upload Selected File" />
+        <form id="uploadForm" enctype="multipart/form-data" method="POST" action="/upload">
+          <input type="file" id="file" name="uploadedFile" accept=".mp4,video/mp4" onChange={handleFile} ref={fileInputRef} />
+          <input type="submit" value="Upload Selected File" />
+        </form>
       </div>
     </>
   )
