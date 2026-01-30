@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-
+.vscode
 .env
 .venv
 /cv_env
@@ -23,6 +23,11 @@ training/
 output_videos/*
 input-videos/*
 models
+runs
+runs/*
+output_videos
+input-videos
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
