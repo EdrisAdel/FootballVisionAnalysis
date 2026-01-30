@@ -23,7 +23,8 @@ This project was built to detect and track players, referees, footballs, and goa
 # Trained YOLO model results
 ## Model summary (Training)
 <img width ="1280" src="https://github.com/EdrisAdel/FootballVisionAnalysis/blob/main/images/githubtraining.png">
-## Model Reesults
+
+## Model Results
 <img width ="1280" src="https://github.com/EdrisAdel/FootballVisionAnalysis/blob/main/images/training.png">
 
 ## Requirements
