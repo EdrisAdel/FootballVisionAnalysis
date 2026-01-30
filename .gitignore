@@ -7,12 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+
 .env
+.venv
+/cv_env
+.cv_env/*
 node_modules
 dist
 dist-ssr
 *.local
-
+#dirs with sensitive training info
+.training/*
+.training/
+training/
+output_videos/*
+input-videos/*
+models
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
